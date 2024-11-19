@@ -43,22 +43,21 @@ if __name__  == "__main__":
         print("4. Quit ")
 
 
-choice = input("Enter your choice :")
+        choice =  input("Enter your choice :")
 
+        if (choice == "1"):
+           addTask()
 
-if (choice == "1"):
-    addTask()
-
-elif(choice == "2"):
-    deleteTask()
+        elif(choice == "2"):
+            deleteTask()
    
-elif(choice == "3"):
-    listTasks()
+        elif(choice == "3"):
+            listTasks()
 
-elif(choice == "4"):
-    quit
+        elif(choice == "4"):
+                quit
 
-else:
-    print("Invalid Input . Please try again")
+        else:
+            print("Invalid Input . Please try again")
 
-print("Goodbye ")
+        print("Goodbye ")
