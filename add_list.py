@@ -1,6 +1,7 @@
-def sum_of_numbers(numbers):
-    return sum(numbers)
+list = [1 , 2 , 3 , 4 ,5 , 6 , 7 , 8 , 9 , 10 , 11 , 12]
+sum = 0
+for i in list :
+    sum = sum + i
 
-numbers_list = [1 , 4 ,5 ,7 ,8]
-result = sum_of_numbers(numbers_list)
-print("Sum of numbers: " , result)
+
+print("The sum is : " , sum)
