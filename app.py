@@ -55,7 +55,7 @@ if __name__  == "__main__":
             listTasks()
 
         elif(choice == "4"):
-                quit
+            quit
 
         else:
             print("Invalid Input . Please try again")
